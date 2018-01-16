@@ -1,0 +1,47 @@
+<document! html>
+    <html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="title"></div>
+
+        <div class="container">
+            <header class="workBlue"></header>
+            <div id="toggleSwitches">
+                <div id="session">
+                    <h2><button id="workUp" class="fa fa-chevron-up"></button> <span id="workDisplay">25</span> <button id="workDown" class="fa fa-chevron-down"></button></h2>
+                    <h3>WORK</h3>
+                </div>
+                <div id="break">
+                    <h2><button id="breakUp" class="fa fa-chevron-up"></button> <span id="breakDisplay">5</span> <button id="breakDown" class="fa fa-chevron-down"></button></h2>
+                    <h3>BREAK</h3>
+                </div>
+            </div>
+
+            <div id="display" class="workBlue">
+                <h1 id='topText' >Session</h1>
+                <p id='timeDisplay'><span id="minutes">25</span>:00</p>
+                <h1 id='bottomText' class="opacityOn">Break</h1>
+            </div>
+
+            <nav>
+                <div id="line" class="workBlue"><div id="playHover"></div><div id="pauseHover"></div></div>
+                <button id="start" class ="greyBackground">PLAY</button>
+                <button id="pause" class ="greyBackground">PAUSE</button>
+                <button id="stop" class ="greyBackground">STOP</button>
+                <button id="refresh" class ="greyBackground">RESET</button>
+                <script src="main.js" ></script>
+            </nav>
+        </div>
+
+        <div id="byline">Pomodoro Clock made in Javascript | By Kasper Simonsen</div>
+    </body>
+
+    </html>
+
+<!--

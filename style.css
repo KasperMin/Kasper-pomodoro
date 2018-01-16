@@ -1,0 +1,196 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+body {
+  background: -webkit-linear-gradient(to right bottom, #8e9eab, #eef2f3);
+  background:    -moz-linear-gradient(to right bottom, #8e9eab, #eef2f3);
+  background:         linear-gradient(to right bottom, #8e9eab, #eef2f3);
+}
+
+.container {
+    width: 640px; height: 377px;
+    position: relative;
+    background-color: #242c37;
+    color: #fff;
+    margin: 25px auto;
+    font-family: 'Exo 2', sans-serif;
+}
+
+
+header {
+    width: 100%; height: 5px;
+}
+
+#title {
+  height: 150px;
+}
+
+#byline {
+  font-family: tahoma;
+  font-size: 20px;
+  position: absolute;
+  bottom: 0px;
+  margin-bottom: 30px;
+  text-align: center;
+  width: 100%;
+
+}
+
+#toggleSwitches {
+    width: 100%; height: 95px;
+    background-color: #323f4e;
+    font-weight: 100;
+    margin-top: 110px;
+}
+
+#session {
+    height: 95px;
+    margin: 7px 350px 0 50px;
+    display: inline-block
+}
+
+#break {
+    display: inline-block;
+    margin-top: 7px;
+}
+
+#workDisplay,
+#breakDisplay {
+  display: inline-block;
+  font-size: 48px;
+  width:60px;
+}
+
+button {
+  background: none;
+  border: none;
+  color: #fff;
+}
+
+#workUp,
+#workDown,
+#breakUp,
+#breakDown {
+  vertical-align: top;
+  margin-top: 22px;
+}
+
+#session,
+#break {
+    float: left;
+}
+
+h3 {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 10px;
+}
+
+#display {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    margin: -185px auto 0 auto;
+    text-align: center;
+    display: inline-block;
+    border: 15px solid #323f4e;
+}
+
+#display h1 {
+    font-size: 30px;
+    margin: 25px 0 0 0;
+}
+
+#display p {
+    font-size: 72px;
+    margin: 0;
+    line-height: 90px;
+}
+
+#bottomText {
+    margin: 0; padding:0;
+    line-height:0;
+}
+
+/* blue */
+.workBlue {
+    background-color: rgb(3, 159, 215);
+    background: -webkit-linear-gradient(left, rgb(3, 159, 215) , rgb(36, 167, 161)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, rgb(3, 159, 215) , rgb(36, 167, 161)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, rgb(3, 159, 215) , rgb(36, 167, 161)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, rgb(3, 159, 215) , rgb(36, 167, 161)); /* Standard syntax */
+}
+
+.pauseRed {
+    background-color: rgb(220, 37, 59);
+    background: -webkit-linear-gradient(left, rgb(220, 37, 59) , rgb(234, 88, 19)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, rgb(220, 37, 59) , rgb(234, 88, 19)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, rgb(220, 37, 59)) , rgb(234, 88, 19)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, rgb(220, 37, 59) , rgb(234, 88, 19)); /* Standard syntax */
+}
+
+.opacityOn {
+    color: rgba(255, 255, 255, .4)
+}
+
+nav {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #0c1521;
+}
+
+#line {
+    height: 5px;
+    text-align: left;
+}
+
+#playHover,
+#pauseHover {
+    width: 75px;
+    height: 5px;
+    display: inline-block;
+    background-color: white;
+    margin-right: 3px;
+    visibility: hidden;
+}
+
+#playHover {
+    margin-left: 165px;
+}
+
+#start,
+#pause,
+#stop,
+#refresh {
+    width: 75px;height: 55px;
+
+    font-size: 18px;
+    font-family: 'Exo 2';
+    font-weight: 100;
+}
+
+.greyBackground {
+  background-color: #242c37;
+}
+
+.whiteBackgroundOn {
+  background-color: #323f4e;
+}
+
+#start:hover,
+#pause:hover,
+#stop:hover,
+#refresh:hover {
+    background-color:#323f4e;
+}
+
+button:focus, input:focus{
+    outline: 0;
+}
