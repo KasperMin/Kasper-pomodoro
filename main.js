@@ -60,8 +60,8 @@ $(document).ready(function(){
 
             if (startTime < 0) {
                 clearTimer();
-                startTimer(parseInt( breakDisplay.html() ));
                 if (runningColor == true) {
+                    startTimer(parseInt( breakDisplay.html() * 60 ));
                     runningColor = false;
                     $.each(displayAndLine, function(i, element) {
                       $(element).removeClass("workBlue").addClass("pauseRed");
@@ -69,6 +69,7 @@ $(document).ready(function(){
                     topText.toggleClass("opacityOn", true);
                     bottomText.toggleClass("opacityOn", false);
                 } else {
+                    startTimer(parseInt( workDisplay.html() * 60 ));
                     runningColor = true;
                     $.each(displayAndLine, function(i, element) {
                       $(element).removeClass("pauseRed").addClass("workBlue");
